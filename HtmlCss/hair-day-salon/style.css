@@ -1,0 +1,42 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+img {
+    width: 50%;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+header > img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+
+section {
+    display: flex;
+}
+article {
+    flex: 1;
+}
+footer {
+    display: flex;
+}
+footer div {
+    flex: 1;
+}
